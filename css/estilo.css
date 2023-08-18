@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Chorasmian&family=Noto+Sans+Multani&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:#E7EDED;
+}
+
+button{
+    font-family: 'Noto Sans Multani', sans-serif;
+    border:2px solid transparent;
+    background-color:transparent;
+    cursor:pointer;
+}
+
+.buttons button{
+    border-radius:0.5rem;
+    margin: 0 0.4em;
+    font-size:1rem;
+    box-shadow:0 0 5px lightgrey;
+}
+
+.productImages:hover{
+    opacity:100%;
+}
+
+.bi-info-circle:hover{
+    color:black;
+}
+
+.buyButton:hover{
+    background-color: #046bc0;
+}
+
+.plusButton:hover{
+    box-shadow:0 0 12px lightgrey;
+}
+
+.main{
+    width:21em;
+    margin:1em auto 0 auto;
+    background-color:white;
+    padding: 0.5em 0.5em 1em 0.5em;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.knifePot{
+    width:21em;
+}
+
+.productName{
+    font-family: 'Noto Sans Chorasmian', sans-serif;
+    font-weight:900;
+}
+
+.productTitle, .productImages{
+    font-family: 'Noto Sans Multani', sans-serif;
+}
+
+.productTitle{
+    color:rgb(150, 150, 150);
+    font-size:1.1rem;
+}
+
+.productImages{
+    background-color:grey;
+    color:white;
+    padding:0.2em 0.4em;
+    border-radius:0.5rem;
+    cursor:pointer;
+    opacity:40%;
+    position:absolute;
+    top:13.5em;
+    right:49.7em;
+    transition:opacity 0.5s;
+}
+
+.bi-images{
+    padding-left:0.3em;
+}
+
+.data{
+    padding-top:1em;
+    display:flex;
+    justify-content:space-between;
+}
+
+.description{
+    padding-left:0.5em;
+}
+
+.bi-info-circle{
+    font-size:1.5rem;
+    padding-right:0.5em;
+    color:#1D95FF;
+    cursor:pointer;
+    transition:color 0.5s;
+}
+
+.buttons{
+    padding-top:1em;
+}
+
+.buyButton{
+    background-color:#0087FF;
+    color:white;
+    padding: 0.8em 1.8em;
+    transition: background-color 0.5s;
+}
+
+.plusButton{
+    padding: 0.8em;
+    border:1px solid lightgrey;
+    color:grey;
+    transition: box-shadow 0.5s;
+}
