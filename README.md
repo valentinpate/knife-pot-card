@@ -1,6 +1,6 @@
 # Knife Pot Card
 
-Original design made by Kerem Suer[Design Link](https://dribbble.com/shots/3126827-Product-card-early-iteration/attachments/9661668?mode=media)
+Original design made by Kerem Suer. [Design Link](https://dribbble.com/shots/3126827-Product-card-early-iteration/attachments/9661668?mode=media)
 
 ![Design](https://cdn.dribbble.com/users/10149/screenshots/3126827/media/5ed290c177d32a55d66350aa7abc5146.png)
 
